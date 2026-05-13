@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio-Projekte von Nicolas Rickenbach – Snake, Orbit War, Tic-Tac-Toe.">
+  <title>Portfolio – Nicolas Rickenbach</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo" aria-label="Zur Startseite">
+        <img src="images/Logo Webseite.png" alt="NR Logo" width="100" height="100" loading="eager">
+      </a>
+
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="faehigkeiten.html">Fähigkeiten</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-content">
+
+      <h1 class="page-title">Portfolio</h1>
+
+      <!-- Projektübersicht -->
+      <section class="portfolio-box card--bordered" aria-label="Projekte">
+        <h2 class="portfolio-box__title">Projekte</h2>
+
+        <ul class="project-grid">
+
+          <li class="project-card">
+            <img
+              class="project-card__img"
+              src="images/snake.png"
+              alt="Screenshot des Snake-Spiels"
+              loading="lazy"
+            >
+            <div class="project-card__body">
+              <h3>Snake</h3>
+              <p>
+                Ein klassisches Snake-Spiel, das ich in Java programmiert habe.
+                Der Spieler steuert eine Schlange, sammelt Äpfel und versucht,
+                so lange wie möglich zu überleben.
+              </p>
+            </div>
+          </li>
+
+          <li class="project-card">
+            <img
+              class="project-card__img"
+              src="images/orbit war.png"
+              alt="Screenshot des Orbit War-Spiels"
+              loading="lazy"
+            >
+            <div class="project-card__body">
+              <h3>Orbit war</h3>
+              <p>
+                Ein 2D-Weltraumshooter, bei dem Raumschiffe gegeneinander
+                kämpfen. Das Projekt entstand als Schularbeit und wurde in
+                Java mit einer eigenen Game-Loop entwickelt.
+              </p>
+            </div>
+          </li>
+
+          <li class="project-card">
+            <img
+              class="project-card__img"
+              src="images/tic-tac-toe.png"
+              alt="Screenshot des Tic-Tac-Toe-Spiels"
+              loading="lazy"
+            >
+            <div class="project-card__body">
+              <h3>Tic-Tac-Toe</h3>
+              <p>
+                Ein Zwei-Spieler-Tic-Tac-Toe-Spiel mit grafischer Oberfläche.
+                Ich habe die Spiellogik und die Gewinnbedingungen vollständig
+                selbst implementiert.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+        <!-- VIDEO: Demo-Video eines Projekts – Datei einfügen unter videos/demo.mp4 -->
+        <div class="demo-video">
+          <h3>Demo-Video</h3>
+          <video
+            controls
+            preload="none"
+            aria-label="Demo-Video eines Projekts"
+          >
+            <!-- VIDEO: Projektvideo einfügen – Datei unter videos/demo.mp4 -->
+            <source src="videos/demo.mp4" type="video/mp4">
+            Dein Browser unterstützt kein HTML5-Video.
+          </video>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Nicolas Rickenbach – Alle Rechte vorbehalten</p>
+      <nav aria-label="Footer-Navigation">
+        <ul>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem \"c:\\\\Modul_293\\\\Git\\\\Projekt\\\\portfolio-website\\\\images\\\\\" | Select-Object Name, Length)"
+    ]
+  }
+}
