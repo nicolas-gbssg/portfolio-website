@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(Get-ChildItem \"c:\\\\Modul_293\\\\Git\\\\Projekt\\\\portfolio-website\\\\images\\\\\" | Select-Object Name, Length)"
+      "Bash(Get-ChildItem \"c:\\\\Modul_293\\\\Git\\\\Projekt\\\\portfolio-website\\\\images\\\\\" | Select-Object Name, Length)",
+      "mcp__claude_ai_Figma__get_screenshot",
+      "mcp__claude_ai_Figma__get_design_context"
     ]
   }
 }
